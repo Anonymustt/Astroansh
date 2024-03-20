@@ -1,0 +1,19 @@
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .moonImage {
+    animation: rotate 10s linear infinite; 
+    transition: transform 0.3s ease;
+  }
+  
+  .moonImage:hover {
+    transform: scale(1.2); 
+  }
+  
